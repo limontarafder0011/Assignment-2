@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Common Css For button */
+.btn {
+    padding: 17px 25px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+/* Header Design  */
+.header {
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 50px 230px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.header li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+/* Section 1 */
+.sec-1 {
+    background-color: rgba(255, 144, 14, 0.1);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 116px;
+}
+
+.sec-1-div-1 {
+    width: 862px;
+    height: 240px;
+}
+
+.sec-1-div-1 h2 {
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+}
+
+.sec-1-div-1 p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 30px;
+}
+
+/* Section 1 Div 2 */
+.sec-1-div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.sec-1-div-2 img {
+    width: 1440px;
+    height: 700px;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+/* Section 2 */
+.sec-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Section 2 Team img  */
+
+.sec-2-div-1 {
+    margin-top: 85px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.sec-2-div-1 img {
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+}
+
+/* Section 2 Team Details  */
+/* Section 2 Team Details Heading  */
+.sec-2-div-2 {
+    width: 537px;
+    height: 304px;
+    margin-left: 73px;
+}
+
+.sec-2-div-2 h4 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.sec-2-div-2 .sec-2-span-1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+
+}
+
+.sec-2-div-2 .sec-2-span-2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FF900E;
+}
+
+/* Section 2 Team Details Info */
+
+.section-2-details {
+    margin-top: 24px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+/* Section 3 */
+.sec-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.sec-3-div-main {
+    display: flex;
+    align-items: center;
+    gap: 54px;
+}
+
+.sec-3-div-1 {
+    width: 586px;
+    height: 982px;
+
+}
+
+/* Section 3 Main Heading  & Details*/
+.sec-3-heading {
+    border-left: 5px solid #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+    width: 468px;
+    padding-left: 20px;
+}
+
+.sec-3-details {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 586px;
+}
+
+.sec-3-div-1-1 {
+    padding: 30px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.sec-3-div-1-1 h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.sec-3-div-1-1 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+
+}
+
+/* Section 3 div 2  */
+.sec-3-div-2 {
+    width: 800px;
+    height: 1059px;
+}
+
+.sec-3-div-2 img {
+    float: right;
+    position: relative;
+}
+
+/* Section 3 div 2 Button  */
+.sec-3-div-2 button {
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    position: relative;
+    margin-top: -100px;
+    padding: 50px 30px;
+    border: none;
+}
+
+.sec-3-div-2 .sec-3-btn-span-1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sec-3-div-2 .sec-3-btn-span-2 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/* Section 4  */
+.sec-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-4-div-1 {
+    margin-top: 130px;
+    width: 1440px;
+}
+
+.sec-4-div-1 h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sec-4-div-1 p {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 542px;
+}
+
+/* section 4 div 2  */
+.sec-4-div-2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.sec-4-div-21 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 50px 40px;
+}
+
+.sec-4-div-21 img {
+    width: 60.22px;
+    height: 60.22px;
+    margin-bottom: 10px;
+}
+
+.sec-4-div-21 h3 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+    margin-bottom: 10px;
+}
+
+.sec-4-div-21 p {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 23px;
+    color: #727272;
+}
+
+/* Section 5  */
+.sec-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sec-5-div-1 {
+    margin-top: 180px;
+    width: 542px;
+    height: 129px;
+}
+
+.sec-5-div-1 h3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.sec-5-div-1 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+
+
+.sec-5-div-2 {
+    margin-top: 50px;
+}
+
+.sec-5-div-2 img {
+    filter: invert(0%) sepia(100%) hue-rotate(-180deg) saturate(0.01);
+    margin-right: 100px;
+}
+
+/* Footer  */
+footer {
+    margin-top: 145px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 216px;
+}
+
+.footer {
+    width: 1440px;
+    height: 100px;
+    align-items: center;
+    background-color: #FFF4E7;
+}
+
+.footer p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+    padding: 40px ;
+}
